@@ -1,0 +1,19 @@
+[submodule "tabular"]
+	path = bundle/tabular
+	url = git://github.com/godlygeek/tabular.git
+
+[submodule "vim-ansible-yaml"]
+	path = bundle/vim-ansible-yaml
+	url = git://github.com/chase/vim-ansible-yaml.git
+
+[submodule "vim-puppet"]
+	path = bundle/vim-puppet
+	url = https://github.com/rodjek/vim-puppet.git
+
+[submodule "vim-sensible"]
+	path = bundle/vim-sensible
+	url = git://github.com/tpope/vim-sensible.git
+
+[submodule "vim-yaml"]
+	path = bundle/vim-yaml
+	url = https://github.com/avakhov/vim-yaml

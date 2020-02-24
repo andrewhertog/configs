@@ -9,3 +9,4 @@ alias tg-dev="AWS_PROFILE=dev tg"
 
 alias holdmybeer="sudo"
 
+export TERRAGRUNT_DOWNLOAD=/tmp/.terragrunt-cache

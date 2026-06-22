@@ -74,6 +74,7 @@ for f in "$REPO_DIR"/zsh/oh-my-zsh/custom/*.zsh; do
 done
 
 install_file "$REPO_DIR/tmux/.tmux.conf"           "$HOME/.tmux.conf"
+install_file "$REPO_DIR/gitmux/gitmux.conf"        "$HOME/.config/gitmux/gitmux.conf"
 install_file "$REPO_DIR/alacritty/alacritty.toml"  "$HOME/.config/alacritty/alacritty.toml"
 install_file "$REPO_DIR/ghostty/config"            "$HOME/.config/ghostty/config"
 install_file "$REPO_DIR/nvim/init.vim"             "$HOME/.config/nvim/init.vim"

@@ -11,6 +11,7 @@ nvim/        init.vim, coc-settings.json   (vim-plug, gruvbox, nerdtree, coc)
 tmux/        .tmux.conf                     (tpm, gruvbox status line)
 zsh/         .zshrc, .zprofile, .p10k.zsh, p10k-keratoconus.zsh
              oh-my-zsh/custom/*.zsh         (oh-my-zsh custom scripts)
+claude/      themes/gruvbox-dark-hard.json  (Claude Code theme → ~/.claude/themes)
 Brewfile     installed tools, casks, fonts, VS Code extensions
 bootstrap.sh provisions a fresh machine from this repo
 ```

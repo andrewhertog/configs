@@ -78,6 +78,10 @@ install_file "$REPO_DIR/alacritty/alacritty.toml"  "$HOME/.config/alacritty/alac
 install_file "$REPO_DIR/nvim/init.vim"             "$HOME/.config/nvim/init.vim"
 install_file "$REPO_DIR/nvim/coc-settings.json"    "$HOME/.config/nvim/coc-settings.json"
 
+for f in "$REPO_DIR"/claude/themes/*.json; do
+  [ -e "$f" ] && install_file "$f" "$HOME/.claude/themes/$(basename "$f")"
+done
+
 # 4. Editor / tmux plugins ----------------------------------------------------
 if command -v nvim >/dev/null 2>&1; then
   log "installing neovim plugins"
@@ -91,3 +95,4 @@ echo
 echo "  Next steps:"
 echo "    1. Create ~/.zshrc.local with your secrets (e.g. export OPSLEVEL_TOKEN=...)."
 echo "    2. Restart your shell:  exec zsh"
+echo "    3. In Claude Code, run /theme and select 'Gruvbox Dark Hard'."

@@ -75,6 +75,7 @@ done
 
 install_file "$REPO_DIR/tmux/.tmux.conf"           "$HOME/.tmux.conf"
 install_file "$REPO_DIR/alacritty/alacritty.toml"  "$HOME/.config/alacritty/alacritty.toml"
+install_file "$REPO_DIR/ghostty/config"            "$HOME/.config/ghostty/config"
 install_file "$REPO_DIR/nvim/init.vim"             "$HOME/.config/nvim/init.vim"
 install_file "$REPO_DIR/nvim/coc-settings.json"    "$HOME/.config/nvim/coc-settings.json"
 

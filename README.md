@@ -7,6 +7,7 @@ Theme is **Gruvbox Dark Hard**, tuned for high contrast (keratoconus-friendly).
 
 ```
 alacritty/   alacritty.toml
+ghostty/     config                         (Ghostty equivalent of the alacritty config)
 nvim/        init.vim, coc-settings.json   (vim-plug, gruvbox, nerdtree, coc)
 tmux/        .tmux.conf                     (tpm, gruvbox status line)
 zsh/         .zshrc, .zprofile, .p10k.zsh, p10k-keratoconus.zsh

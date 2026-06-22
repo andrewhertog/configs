@@ -129,7 +129,9 @@ brew "yq"
 brew "warrensbox/tap/tfswitch", link: false
 # GPU-accelerated terminal emulator
 cask "alacritty"
-# Terminal font used by alacritty config (D2CodingLigature Nerd Font)
+# Terminal emulator used on other machines (config in ghostty/)
+cask "ghostty"
+# Terminal font used by alacritty/ghostty configs (D2CodingLigature Nerd Font)
 cask "font-d2coding-nerd-font"
 # Terminal-based AI coding assistant
 cask "claude-code@latest"
